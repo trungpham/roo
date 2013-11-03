@@ -13,7 +13,7 @@ require 'time'
 
 class Roo::CSV < Roo::Base
   def initialize(filename, options = {})
-    super
+    super(filename, options)
   end
 
   attr_reader :filename
